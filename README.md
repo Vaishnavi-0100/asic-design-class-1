@@ -144,6 +144,8 @@ Instructions are classified in RISC-V based on their formats and functionality:
 Used for arithmetic and logical operations where all operands are registers.  
 Example: ADD, SUB, AND, OR, XOR, SLL, SRL, SLT.  
 Format:
+![image](https://github.com/user-attachments/assets/5b65ee0d-9511-40f9-a262-24333624905b)
+
 
 - **func7**  
   - Size: 7 bits  
@@ -179,6 +181,7 @@ Format:
 Used for operations involving an immediate value.  
 Example: ADDI, SLTI, ANDI, ORI, XORI, LW.  
 Format:
+![image](https://github.com/user-attachments/assets/fdf11388-b3c1-455f-8fd5-2f6df081c4e6)
 
 - **opcode**  
   - Size: 7 bits  
@@ -208,6 +211,7 @@ Format:
 #### 3. S-Type  
 Used for storing instructions where data from a register is stored into memory.  
 Format:
+![image](https://github.com/user-attachments/assets/81c8c136-4c30-435e-b6c6-00553de8ffe6)
 
 - **opcode**  
   - Size: 7 bits  
@@ -242,6 +246,8 @@ Format:
 #### 4. B-Type  
 Used for conditional branch instructions.  
 Format:
+![image](https://github.com/user-attachments/assets/d1f45b23-489f-47f2-aa64-ef4c2f672a8b)
+
 
 - **opcode**  
   - Size: 7 bits  
@@ -285,6 +291,9 @@ Format:
 
 #### 5. U-Type  
 The U-type format is used for instructions that need a 20-bit immediate value. These instructions include LUI (Load Upper Immediate) and AUIPC (Add Upper Immediate to PC).
+Format:
+![image](https://github.com/user-attachments/assets/538d9509-806e-4dec-a3d7-8ecd9be2631a)
+
 
 - **opcode**  
   - Size: 7 bits  
@@ -318,6 +327,8 @@ The U-type format is used for instructions that need a 20-bit immediate value. T
 
 #### 6. J-Type  
 The J-type format is primarily used for jump instructions, such as JAL (Jump and Link).
+Format:
+![image](https://github.com/user-attachments/assets/eb995d9e-86be-4d6e-a220-d427cd122988)
 
 - **opcode**  
   - Size: 7 bits  
